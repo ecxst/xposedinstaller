@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- General/various strings -->
+    <string name="app_name">ตัวติดตั้ง Xposed</string>
+    <string name="menuSend">ส่ง</string>
+    <string name="menuSaveToSd">เก็บไว้ที่การด์</string>
+    <string name="xposed_not_active">อันนี้เป็นเวอร์ชั่นล่าสุดของ Xposed ไม่สามารถทำงานได้ . คุณได้ทำการติดตั้งโครงสร้างและรีบูทแล้วหรือยัง?</string>
+
+    <!-- Welcome screen / main sections -->
+    <string name="welcome">ยินดีต้อนรับเข้าสู่ <b>ตัวติดตั้ง Xposed</b>!\nกรุณาเลือกว่าคุณจะทำอะไร:</string>
+    <string name="tabInstall">โครงสร้าง</string>
+    <string name="tabInstallDescription">ที่นี่คุณสามารถจัดการโครงสร้าง Xposed, คุณต้องการให้โมดูลใดๆรันหรือไม่?.</string>
+    <string name="tabModules">โมดูล</string>
+    <string name="tabModulesDescription">โครงสร้างนี้ไม่สามารถเพิ่มตัวเองได้ . ต้องการโมดูลใดๆ ในส่วนนี้ คุณสามารถเปิดการใช้งานโมดูลหลังติดตั้ง Xposed.</string>
+    <string name="tabDownload">Download</string>
+    <string name="tabDownloadDescription">ในส่วนนี้สามารถให้คุณจัดการโมดูล . คุณสามารถหาโมดูลที่คุณชอบได้และสามารถอัพเดทได้ทุกเวลา.</string>
+    <string name="welcome_framework_update_available">โมดูล Xposed พร้อมแล้วสำหรับการอัพเดท (%s).</string>
+    <string name="welcome_update_available">มีอัพเดทโมดูลที่มากกว่า 1 รออยู่.</string>
+    <string name="tabSettings">การตั้งค่า</string>
+    <string name="tabSettingsDescription">ไปในส่วยของการแก้ไขตัวติดตั้ง Xposed และ โครงสร้าง.</string>
+    <string name="tabLogs">ตัวแสดงการทำงาน</string>
+    <string name="tabLogsDescription">แสดง เก็บ และส่งตัวแสดงการทำงานของโครงสร้าง Xposed.</string>
+    <string name="tabAbout">เกี่ยวกับ</string>
+    <string name="tabAboutDescription">รู้เกี่ยวกับผู้สร้าง Xposed และ รู้ที่มาของแอพและสนับสนุน.</string>
+
+    <!-- Installer tab -->
+    <string name="install">ติดตั้ง/อัพเดท</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+    <string name="installedVersion">ทำงาน</string>
+    <string name="latestVersion">แนบมาด้วย</string>
+    <string name="versions">เวอร์ชั่น:</string>
+    <string name="soft_reboot">รีบูทเบื้องต้น (Soft Reboot)</string>
+    <string name="reboot">รีบูท</string>
+    <string name="areyousure">แน่ใจหรือ?</string>
+    <string name="phone_not_compatible">Xposed ไม่สนุบสนุนเวอร์ชั่น SDK %1$d หรือ โครงสร้างสถาปัตยกรรมของระบบประมวลผล ของคุณ (%2$s).</string>
+    <string name="not_tested_but_compatible">Xposed ยังไม่ได้รับการทดสอบกับเวอร์ชั่น SDK %d, แต่ดูแล้วมันสามารถเข้ากันได้. คุณสามารถติดตั้งมันได้ถ้าคุณกล้าพอ.</string>
+    <string name="reboot_failed">ไม่สามารถรีบูทได กรุณาใช้ฟังก์ชั่นรีบูทที่แนบมากับระบบ</string>
+    <string name="auto_flash_note">%s การแฟลชจะเป็นอัตโนมัติทันทีเมื่อคุณกด "ตกลง".</string>
+    <string name="manual_flash_note">กรุณาแฟลช %s จากการด์ของคุณ และ ทำให้เสร็จสิ้นขบวนการ.</string>
+    <string name="reboot_confirmation">คุณต้องการจะรีบูทตอนนี้หรือไม่ ?</string>
+    <string name="reboot_recovery_confirmation">คุณต้องการจะรีบูทไป โหมด Recovery ตอนนี้หรือไม่?</string>
+    <string name="install_warning_title">ระวังนะ!</string>
+    <string name="install_warning">ในบางกรณี, อุปกรณ์คุณไม่สามารถบูทได้หลังติดตั้ง Xposed.\n\nถ้าคุณยังไม่รู้เกี่ยวกับ \"soft brick\" และ \"บูทวน\" ก่อนหรือคุณไม่รู้ว่าจะกู้อย่างไรจากสถานการณ์นี้ <b>ไม่ควร</b> ติดตั้ง Xposed!\n\nไม่ว่ากรณีใดๆ, คุณต้องสำรองข้อมูลเป็นอันดีที่สุด.</string>
+    <string name="dont_show_again">ไม่ต้องการให้แสดงอย่างนี้อีก</string>
+
+    <!--  File operations -->
+    <string name="root_failed">ไม่สามารถไปจัดการฟังก์ชั่นรูทได้.\n\nให้แน่ใจว่าเครื่องคุณรูทแล้ว.</string>
+    <string name="file_extract_failed">ไม่สามารถแตกไฟล์ %s</string>
+    <string name="file_mounting_writable">จำลอง %s เขียนได้&#8230;</string>
+    <string name="file_mount_writable_failed">ไม่สามารถ %s เขียนได้</string>
+    <string name="file_trying_to_continue">จะพยายามไปให้ถึง&#8230;</string>
+    <string name="file_backup_already_exists">สำรองข้อมูลแล้วที่ %s</string>
+    <string name="file_backup_not_found">ไม่เจอการสำรองข้อมูลที่ %s</string>
+    <string name="file_backup_failed">ไม่สามารถสร้างการสำรองข้อมูล %s</string>
+    <string name="file_backup_successful">สร้างการสำรองข้อมูล %s</string>
+    <string name="file_backup_restoring">คืนค่าการสำรองข้อมูล %s</string>
+    <string name="file_copying">กำลังคัดลอก %s&#8230;</string>
+    <string name="file_copy_failed">ไม่สามารถคัดลอก %1$s จาก %2$s</string>
+    <string name="file_move_failed">ไม่สามารถย้าย %1$s จาก %2$s</string>
+    <string name="file_set_perms_failed">ไม่สามารถอนุญาติสิทธิจาก %s</string>
+    <string name="file_set_owner_failed">ไม่สามารถตั้งเป็นเจ้าของจาก %s</string>
+    <string name="file_removing">นำออก %s&#8230;</string>
+    <string name="file_remove_failed">ไม่สามรถนำออก %s</string>
+    <string name="file_creating_directory">กำลังสร้างที่อยู่ %s&#8230;</string>
+    <string name="file_create_directory_failed">ไม่สามารถสร้างที่อยู่ได้ %s</string>
+    <string name="file_writing_recovery_command">กำลังเขียนคำสั่ง Recovery&#8230;</string>
+    <string name="file_writing_recovery_command_failed">การเขียนคำสั่ง Recovery ล้มเหลว กรุณาใช้วิธีอื่น.</string>
+    <string name="file_done">สำเร็จคุณสามารถรีบูทตอนนี้ได้เลยหรือไม่.</string>
+
+    <!-- Modules tab -->
+    <string name="module_is_not_activated_yet">โมดูลของ Xposed ยังไม่ได้เปิด</string>
+    <string name="module_empty_description">(ไม่มีคำอธิบาย)</string>
+    <string name="module_no_ui">โมดูลนี้ไม่ได้ครอบคลุมถึงลักษณะผู้ใช้งาน</string>
+    <string name="no_xposed_modules_found">ไม่เจอโมดูล Xposed!</string>
+    <string name="xposed_module_list_updated">โมดูล Xposed อัพเดทแล้ว\nการเปลี่ยนแปลงจะมากับการรีบูท</string>
+    <string name="warning_xposed_min_version">โมดูลนี้ต้องการ XposedBridge เวอร์ชั่น (%d) และไม่สามารถทำงานได้.</string>
+    <string name="no_min_version_specified">โมดูลนี้ไม่ได้เจาะจง XposedBridge เวอร์ชั่นที่ต้องการ.</string>
+    <string name="warning_min_version_too_low">โมดูลนี่สร้างเฉพาะ  XposedBridge เวอร์ชั่น %1$d, แต่ไม่สามารถเข้าได้กับการเปลี่ยนแปลง %2$d, มันจะโดนปิดตัว.</string>
+    <string name="module_launch">หน้าหลัก UI</string>
+    <string name="module_download_updates">ดาวน์โหลด/อัพเดท</string>
+    <string name="module_support">สนับสนุน</string>
+    <string name="module_app_info">เกี่ยวกับแอพ</string>
+    <string name="module_uninstall">ถอนการติดตั้ง</string>
+
+    <!-- Download tab -->
+    <string name="menuSearch">ค้นหา</string>
+    <string name="menuReload">โหลดอีกครั้ง</string>
+    <string name="changes">เปลี่ยนแปลง:</string>
+    <string name="branch_display">(%s ย่อย)</string>
+    <string name="download_author">โดย %s</string>
+    <string name="download_unknown_author">ไม่รู้ที่มาของคนทำ</string>
+    <string name="download_status_installed">ติดตั้งแล้ว (เวอร์ชั่น %s)</string>
+    <string name="download_status_update_available">มีการอัพเดท (เวอร์ชั่น %1$s \u2192 %2$s)</string>
+    <string name="download_timestamps">เพิ่มลงบน %1$s \u00b7 อัพเดทแล้วบน %2$s</string>
+    <string name="download_sorting_title">จัดโดยลำดับ</string>
+    <string name="download_sorting_status">จัดโดยสถานะ</string>
+    <string name="download_sorting_updated">จัดโดยการอัพเดทล่าสุด</string>
+    <string name="download_sorting_created">จัดโดยวันที่ถูกสร้าง</string>
+    <string name="download_section_framework">โครงสร้าง</string>
+    <string name="download_section_update_available">อัพเดทมาแล้ว</string>
+    <string name="download_section_installed">ติดตั้งแล้ว</string>
+    <string name="download_section_not_installed">ยังไม่ได้ติดตั้ง</string>
+    <string name="download_section_24h">เมื่อ 24 ชั่วโมงที่แล้ว</string>
+    <string name="download_section_7d">เมื่อ 7 วันที่แล้ว</string>
+    <string name="download_section_30d">เมื่อ 30 วันที่แล้ว</string>
+    <string name="download_section_older">เมื่อ 30 กว่าวันที่แล้ว</string>
+
+    <!-- Settings tab -->
+    <string name="settings_group_installation">การติดตั้ง</string>
+    <string name="settings_install_mode">โหมดการติดตั้ง</string>
+    <string name="install_mode_normal">ธรรมดา (write to /system directly)</string>
+    <string name="install_mode_recovery_auto">โหมด Recovery (แฟลช zip อัตโนมัติ)</string>
+    <string name="install_mode_recovery_manual">โหมด Recovery (เขียน zip ลง SD card, แฟลชเอง)</string>
+    <string name="settings_group_download">ดาวน์โหลด</string>
+    <string name="settings_enable_downloads">เปิดการดาวน์โหลด</string>
+    <string name="settings_enable_downloads_summary">อนุญาติตัวติดตั้ง Xposed เช็คอัพเดท</string>
+    <string name="settings_group_experimental">การทดลอง</string>
+    <string name="settings_disable_resources">ปิดการแก้ไขแหล่งข้อมูล</string>
+    <string name="settings_disable_resources_summary">ดูเหมือนมันจะขัดกับธีมเอนจินท์ของคุณ\n<b>ระวัง:</b> โมดูลนี้อาจพยายามเปลี่ยนแปลงข้อมูล มันจะไม่ทำงานตราบใดที่มันเปิด.</string>
+    <string name="settings_performance_experiment" tools:ignore="UnusedResources">การทดลองประสิทธิภาพ</string>
+    <string name="settings_performance_experiment_summary" tools:ignore="UnusedResources">ถ้าคุณเปิดสิ่งนี้, ระบบคุณประสิทธิภาพอาจจะเพิ่มขึ้น, ลดลงหรือเหมือนเดิม. คุณจะรู้สึกดีเมื่อลองมัน และรายงานกลับว่าผลกระทบที่ได้รับและมองเห็น (หรืออาจจะไม่เป็นอย่างนั้น). คุณสามารถติดตั้งโครงสร้าง Xposed ใหม่ และ รีบูทหลังจากการเปลี่ยนแปลงนี้.</string>
+
+    <!--  Logs tab  -->
+    <string name="logs_load_failed">ไม่สามารถอ่านบันทึกการทำงานได้:</string>
+    <string name="logs_save_failed">ไม่สามารถเขียนบันทึกการทำงานไปยัง SDCARD:</string>
+    <string name="sdcard_not_writable">SD card ไม่เจอหรือไม่สามารถเขียนได้</string>
+    <string name="log_too_large">ไฟล์บันทึกการทำงานมีมากกว่า %1$,d kB, ข้าม %2$,d kB</string>
+    <string name="menuClearLog">ล้างบันทึกการทำงานเดี๋ยวนี้</string>
+    <string name="logs_cleared">ล้างบันทึกการทำงานเรียบร้อยแล้ว</string>
+    <string name="logs_clear_failed">ไม่สามารถล้างบันทึกการทำงาน:</string>
+    <string name="log_is_empty">บันทึกการทำงานว่าง</string>
+
+    <!-- About tab -->
+    <string name="about_developers_label">นักพัฒนาหลัก:</string>
+    <string name="about_developers"><a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a> and <a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a></string>
+    <string name="about_developers_warning">คุณสามารถ <b>หรือไม่</b> ที่จะติดต่อพวกเขาเพื่อการสนับสนุนโดยตรง, สามารถใช้ลิ้งค์ข้างล่างนี้.</string>
+    <string name="about_translator_label">ผู้แปล:</string>
+    <string name="translator"></string>อัศนันท์ อภิสิทธิ์วรโชติ : Assumption College Nakhonrathchasima</string>
+    <string name="about_version_label">เวอร์ชั่นของแอพ:</string>
+    <string name="about_source_label">โค๊ดของแหล่งที่มา:</string>
+    <string name="about_support_label">สามารถรับการสนับสนุนได้ที่ :</string>
+    <string name="about_support_warning">ลิงค์นี้สำหรับตัวติดตั้งและโครงสร้าง<b>สำหรับ</b>! ถ้าคุณต้องการช่วยเหลือกับโมดูล <b>ไม่สามรถ</b>ใช้มัน, กรุณาติดต่อที่ผู้สร้างโมดูลนี้.</string>
+    <string name="about_libraries_label">สามารถใช้หลักไลบารี่:</string>
+
+    <!-- DownloadView -->
+    <string name="download_view_download">ดาวน์โหลด</string>
+    <string name="download_view_install">ติดตั้ง</string>
+    <string name="download_view_cancel">ยกเลิก</string>
+    <string name="download_view_no_url">ไม่มี URL ดาวน์โหลดในขณะนี้</string>
+    <string name="download_view_running">การดาวน์โหลดกำลังดำเนินการ (%1$,d ของ %2$,d kB)</string>
+    <string name="download_view_waiting">กำลังรอการดาวน์โหลด</string>
+    <string name="download_view_successful">การดาวน์โหลดเสร็จสมบูรณ์</string>
+    <string name="download_view_failed">การดาวน์โหลดไม่สำเร็จ (error %d)</string>
+
+    <!-- DownloadUtils -->
+    <string name="download_md5sum_incorrect">MD5 sum ไม่ถูกต้อง (ดาวน์โหลด: %1$s, คาดหวัง: %2$s)</string>
+    <string name="download_could_not_read_file">ไม่สามารถอ่านไฟล์ที่ดาวน์โหลด: %s</string>
+    <string name="download_no_valid_apk">ไฟล์ที่โหลดมาเป็น APK ที่ไม่สามารถอ่านได้ ( หรือไม่รองรับ )</string>
+    <string name="download_incorrect_package_name">ชื่อไฟล์แพ็คเกจไม่ถูกต้อง (ดาวน์โหลด: %1$s, คาดหวัง: %2$s)</string>
+
+    <!-- RepoLoader -->
+    <string name="repo_download_failed_http">การดาวน์โหลด %1$s ล่ม: %2$d (%3$s)</string>
+    <string name="repo_download_failed">การดาวน์โหลด %1$s ล่ม: %2$s</string>
+    <string name="repo_load_failed">ไม่สามารถดาวน์โหลดจากที่รองรับ %1$s:\n%2$s</string>
+
+</resources>
